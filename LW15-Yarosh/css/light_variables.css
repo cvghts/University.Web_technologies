@@ -1,0 +1,8 @@
+:root {
+    --bgc: #E5E5E5;
+    --colorText: #3F3D56;
+    --colorAuthorText: #201F2E;
+    --bgBlockQuote: url('../img/Noise.png'),
+    linear-gradient (142.13deg, rgb(254 248 255 / 20%) 1.8%, rgb(254 248 255 / 10%) 99.75%);
+    --bgImgContainer: url('../img/5_3.png');
+}

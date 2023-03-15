@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    color: #FFF;
+    font-size: 16px;
+}
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+header {
+    height: 80px;
+    background: rgb(255, 118, 118);
+}
+.title{
+    font-weight: 900;
+    font-size: 20px;
+}
+.header {
+    margin: 0;
+    padding: 30px 0 0 0;
+    font-size: 16px;
+}
+.first-line {
+    display: inline-block;
+    margin-right: 20px;
+}
+section {
+    display: flex;
+    align-items: center;
+    height: 230px;
+}
+
+.text {
+    margin-top: 25px;
+}
+.second-line { 
+    background: rgb(138, 187, 255);
+}
+.third-line {
+    background: rgb(175, 255, 162);
+}
+footer {
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(210, 133, 255);
+    font-size: 17px;
+}

@@ -1,0 +1,252 @@
+.container{
+    background:rgb(255, 255, 255)
+}
+.container .logo__info{
+    color:#252525
+}
+.container .logo i{
+    color:#252525
+}
+.container .form__title{
+    color:#252525
+}
+.container .form__description{
+    color:rgba(43,43,43,.5)
+}
+.container .form__wrapper__text{
+    color:#252525
+}
+.container .form__wrapper__text1{
+    background:rgb(255, 255, 255);
+    border:1px solid #d5d5d5;
+    box-shadow:0 1px 2px rgba(0,0,0,.08);
+    color:rgba(43,43,43,.5)
+}
+.container .wrapper__block .check{
+    color:#252525
+}
+.container .wrapper__block .check input:before{
+    background:rgb(255, 255, 255);
+    border:1px solid #d5d5d5;
+    box-shadow:0 1px 1px rgba(0,0,0,.06)
+}
+.container .wrapper__block .check input:checked:after{
+    border:solid #000
+}
+.container .wrapper__block a{
+    color:#252525
+}
+.container .form__wrapper input[name=submit]{
+    background:#252525;
+    box-shadow:0 1px 2px rgba(0,0,0,.08);
+    color:rgb(255, 255, 255)
+}
+.container .form__wrapper input[name=submit]:hover{
+    background:rgba(101, 54, 163, 0.5)
+}
+.container .form__wrapper .login{
+    background:(255, 255, 255);
+    border:1px solid #d5d5d5;
+    box-shadow:0 1px 2px rgba(0,0,0,.08);
+    color:#252525
+}
+.container .form__wrapper .login:hover{
+    background:rgba(101, 54, 163, 0.5);
+    color:rgb(255, 255, 255)
+}
+.container .form__wrapper .signUp1{
+    color:#252525
+}
+.container .form__wrapper .signUp2{
+    color:#252525
+}
+*{
+    margin:0;
+    box-sizing:border-box
+}
+.container{
+    min-height:955px;
+    padding:48px 0
+}
+.container .block{
+    display:flex;
+    justify-content:space-between;
+    width:1440px;
+    margin:0 auto
+}
+.container .title{
+    width:705px;
+    padding:0 32px
+}
+.container .title .logo{
+    display:flex;
+    width:150px;
+    height:36px;
+    justify-content:space-between;
+    align-items:center;
+    margin:0
+}
+.container .title .logo__info{
+    font-family:Raleway;
+    font-style:normal;
+    font-weight:500;
+    font-size:24px
+}
+.container .title .logo i{
+    font-size:25px
+}
+.container .title .form{
+    margin:0 auto;
+    margin-top:111px;
+    width:380px;
+    height:540px
+}
+.container .title .form__title{
+    font-family:Poppins;
+    font-style:normal;
+    font-weight:500;
+    font-size:48px;
+    margin:0
+}
+.container .title .form__description{
+    font-family:Raleway;
+    font-style:normal;
+    font-weight:400;
+    font-size:18px
+}
+.container .title .form__wrapper{
+    margin-top:32px;
+    display:flex;
+    flex-direction:column
+}
+.container .title .form__wrapper__text{
+    font-family:Raleway;
+    font-style:normal;
+    font-weight:600;
+    font-size:16px;
+    margin-top:24px
+}
+.container .title .form__wrapper__text:first-child{
+    margin:0
+}
+.container .title .form__wrapper__text1{
+    margin-top:8px;
+    width:100%;
+    height:48px;
+    padding:12px;
+    border-radius:8px;
+    font-family:Raleway;
+    font-style:normal;
+    font-weight:400;
+    font-size:16px
+}
+.container .title .form__wrapper__text1:nth-of-type(2){
+    font-size:30px
+}
+.container .title .wrapper__block{
+    display:flex;
+    justify-content:space-between
+}
+.container .title .wrapper__block .check{
+    font-family:Raleway;
+    font-style:normal;
+    font-weight:400;
+    font-size:16px;
+    display:flex;
+    margin-left:26px
+}
+.container .title .wrapper__block .check input{
+    width:0;
+    height:0;
+    position:relative;
+    cursor:pointer
+}
+.container .title .wrapper__block .check input:before{
+    content:"";
+    display:block;
+    position:absolute;
+    width:16px;
+    height:16px;
+    top:0;
+    left:-26px;
+    border-radius:3px
+}
+.container .title .wrapper__block .check input:checked:after{
+    content:"";
+    display:block;
+    width:5px;
+    height:10px;
+    border-width:0 2px 2px 0;
+    transform:rotate(45deg);
+    position:absolute;
+    top:2px;
+    left:-20px
+}
+.container .title .wrapper__block a{
+    text-decoration:none;
+    font-family:Raleway;
+    font-style:normal;
+    font-weight:600;
+    font-size:16px
+}
+.container .title .form__wrapper input[name=submit]{
+    width:100%;
+    height:48px;
+    border:none;
+    border-radius:8px;
+    font-family:Raleway;
+    font-style:normal;
+    font-weight:600;
+    font-size:16px;
+    margin-top:24px;
+    cursor:pointer
+}
+.container .title .form__wrapper .login{
+    width:100%;
+    height:48px;
+    border-radius:8px;
+    margin-top:16px;
+    font-family:Raleway;
+    font-style:normal;
+    font-weight:600;
+    font-size:16px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    cursor:pointer
+}
+.container .title .form__wrapper .login img{
+    width:24px;
+    height:24px;
+    margin-right:8px
+}
+.container .title .form__wrapper .signUp{
+    display:flex;
+    justify-content:center;
+    margin-top:24px
+}
+.container .title .form__wrapper .signUp1{
+    font-family:Raleway;
+    font-style:normal;
+    font-weight:400;
+    font-size:16px;
+    margin-right:5px
+}
+.container .title .form__wrapper .signUp2{
+    font-family:Raleway;
+    font-style:normal;
+    font-weight:600;
+    font-size:16px;
+    text-decoration:none
+}
+.container aside{
+    width:751px;
+    display:flex;
+    align-items:center;
+    justify-content:center
+}
+.container aside img{
+    width:662px;
+    height:819px;
+    border-radius:40px
+}

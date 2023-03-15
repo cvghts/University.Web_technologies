@@ -1,0 +1,12 @@
+#p_1{
+    color:red;
+}
+
+.s_1{
+    color:blue;
+    font-weight: bold;
+}
+
+span[title]{
+    color:green;
+}

@@ -1,0 +1,139 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    margin: 0;
+    box-sizing: border-box;
+    background: #f9fbff;
+}
+
+.container {
+    background: #ffffff;
+    margin: 0 auto;
+    width: 968px;
+    height: 700px;
+    margin-top: 1%;
+    padding: 25px 39px 35px 33px;
+    box-shadow: 0px 9px 55px rgba(213, 224, 237, 0.5);
+    border-radius: 25px;
+}
+
+nav {
+    display: flex;
+    height: 75px;
+}
+
+nav .information {
+    width: 185px;
+}
+
+nav .information .title {
+    font-weight: 550;
+    font-size: 24px;
+    color: #000000;
+}
+
+nav .information .description {
+    font-weight: 410;
+    font-size: 16px;
+    color: #16C098;
+    margin-top: 5px;
+}
+
+nav .search {
+    align-items: center;
+    display: flex;
+    align-self: center;
+    margin-left: 340px;
+    width: 200px;
+    height: 40px;
+    background: #f8faff;
+    border-radius: 13px;
+}
+
+nav .search img {
+    margin: 13px;
+}
+
+nav .search .search1 {
+    background: #f9fbff;
+    border: none;
+}
+
+nav .search .search1:focus {
+    outline: none;
+}
+
+nav .selection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    margin-left: 15px;
+    width: 200px;
+    height: 40px;
+    background: #f9fbff;
+    border-radius: 13px;
+}
+
+nav .selection .sort {
+    font-weight: 400;
+    font-size: 14px;
+    color: #626262;
+    line-height: 21px;
+}
+
+nav .selection .sort1 {
+    color: #37363b;
+    font-weight: 600;
+    border: none;
+    background: none;
+}
+
+nav .selection .sort1:focus {
+    outline: none;
+}
+
+table {
+    display: table;
+    width: 968px;
+    border-collapse: collapse;
+}
+
+table>*>* {
+    text-align: left;
+    border-bottom: 1px solid #EEEEEE;
+}
+
+tbody tr:hover {
+    background: #eeeeee;
+}
+
+td, th {
+    font-weight: 485;
+    font-size: 14px;
+    color: #292D32;
+    height: 65px;
+}
+
+th {
+    color: #b3b5bd;
+}
+
+table tbody tr .Active, table tbody tr .Inactive {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0;
+    width: 85px;
+    height: 35px;
+    border-radius: 7px;
+    background: #16C098;
+    border: 1px solid #00b087;
+}
+
+table tbody tr .Inactive {
+    background: #ffc5c5;
+    border: 1px solid #df0404;
+}

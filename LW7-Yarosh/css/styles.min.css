@@ -1,0 +1,213 @@
+*{
+    box-sizing:border-box;
+    margin:0
+}
+.container{
+    background:rgb(37, 37, 37);
+    padding:50px 0;
+    min-height:970px
+}
+.container .block{
+    display:flex;
+    justify-content:space-between;
+    width:1440px;
+    margin:0 auto
+}
+.container .title{
+    padding:0 35px;
+    width:715px
+}
+.container .title .logo{
+    justify-content:space-between;
+    align-items:center;
+    display:flex;
+    height:30px;
+    width:155px;
+    margin:0
+}
+.container .title .logo i{
+    color:#713ec3;
+    font-size:30px
+}
+.container .title .info{
+    font-family:Raleway;
+    font-style:normal;
+    font-weight:515;
+    font-size:25px;
+    color:#ffffff
+}
+.container .title .forma{
+    margin:0 auto;
+    margin-top:110px;
+    width:385px;
+    height:550px
+}
+.container .title .header{
+    font-family:Poppins;
+    font-style:normal;
+    font-size:50px;
+    font-weight:510;
+    margin:0;
+    color:#ffffff
+}
+.container .title .description{
+    font-family:Raleway;
+    font-style:normal;
+    font-weight:410;
+    font-size:18px;
+    color:rgba(76, 71, 71, 0.793)
+}
+.container .title .text{
+    margin-top:30px;
+    flex-direction:column;
+    display:flex
+}
+.container .title .text1{
+    font-family:Raleway;
+    font-style:normal;
+    font-size:16px;
+    font-weight:610;
+    margin-top:27px;
+    color:#ffffff
+}
+.container .title .text2{
+    margin-top:10px;
+    width:100%;
+    border-radius:11px;
+    height:50px;
+    padding:15px;
+    background:rgba(0, 0, 0, 0.19);
+    border:1px solid rgba(76, 71, 71, 0.793);
+    box-shadow:0 1px 1px rgba(0, 0, 0, 0.19);
+    font-family:Raleway;
+    font-style:normal;
+    font-weight:410;
+    font-size:16px;
+    color:rgba(0, 0, 0, 0.19)
+}
+.container .title .text2:invalid{
+    border-color:#dd9b9b
+}
+.container .title .text2:nth-of-type(2){
+     font-size:15px
+}
+.container .title .information{
+    display:flex;
+    justify-content:space-between
+}
+.container .title .information .checkout{
+    font-family:Raleway;
+    font-style:normal;
+    color:#ffffff;
+    font-weight:400;
+    font-size:16px;
+    display:flex;
+    margin-left:26px
+}
+.container .title .information .checkout input{
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    appearance:none;
+    position:relative;
+    cursor:pointer
+}
+.container .title .information .checkout input::before{
+    content:"";
+    display:block;
+    position:absolute;
+    width:16px;
+    height:16px;
+    left:-24px;
+    top:0;
+    border-radius:3px;
+    border:1px solid rgba(0, 0, 0, 0.19);
+    background:rgba(0, 0, 0, 0.19)
+}
+.container .title .information .checkout input:checked::after{
+    content:"";
+    display:block;
+    width:5px;
+    height:11px;
+    border:solid #ffffff;
+    transform:rotate(45deg);
+    border-width:0 3px 3px 0;
+    position:absolute;
+    top:2px;
+    left:-20px
+}
+.container .title .information a{
+    text-decoration:none;
+    font-family:Raleway;
+    font-style:normal;
+    font-weight:600;
+    font-size:16px;
+    color:#ffffff
+}
+.container .title .text input[name=sub]{
+    width:100%;
+    height:48px;
+    background:#713ec3;
+    box-shadow:0 1px 1px rgba(0, 0, 0, 0.19);
+    border:none;
+    border-radius:8px;
+    font-weight:600;
+    font-size:16px;
+    font-family:Raleway;
+    font-style:normal;
+    color:#ffffff;
+    margin-top:24px;
+    cursor:pointer
+}
+.container .title .text .login{
+    align-items:center;
+    justify-content:center;
+    cursor:pointer;
+    width:100%;
+    height:48px;
+    background:rgba(0, 0, 0, 0.19);
+    box-shadow:0 1px 1px rgba(76, 71, 71, 0.793);
+    border:none;
+    border-radius:8px;
+    margin-top:16px;
+    font-family:Raleway;
+    font-style:normal;
+    font-weight:600;
+    font-size:16px;
+    color:#ffffff;
+    display:flex
+}
+.container .title .text .login i{
+    align-self:center;
+    margin-right:8px
+}
+.container .title .text .signUp{
+    display:flex;
+    margin-top:24px;
+    justify-content:center
+}
+.container .title .text .signUp1{
+    color:#ffffff;
+    margin-right:5px;
+    font-weight:400;
+    font-size:16px;
+    font-family:Raleway;
+    font-style:normal
+}
+.container .title .text .signUp2{
+    font-weight:600;
+    font-size:16px;
+    color:#ffffff;
+    text-decoration:none;
+    font-family:Raleway;
+    font-style:normal
+}.wcontainer aside{
+    justify-content:center;
+    align-items:center;
+    display:flex;
+    width:749px
+}
+.container aside img{
+    width:658px;
+    border-radius:45px;
+    height:810px
+}

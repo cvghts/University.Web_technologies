@@ -1,0 +1,74 @@
+body {
+    margin: auto;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 18px;
+}
+
+div {
+    text-align: center; 
+    margin-bottom: 50px;
+}
+
+#transition {
+    text-align: center;
+    font-weight: bold;
+    font-size:46px;
+    color:rgb(194, 97, 173);
+
+    transition: text-shadow 0.5s ease;
+}
+#transition:hover {
+    text-shadow: 5px 5px 5px rgb(194, 97, 173);
+}
+
+div.transition2, div.transition3, div.transition4, div.transition5 {
+    align-self: center;
+    width:245px;
+    height:150px;
+}
+
+.transition2 {
+    background-color: rgb(98, 183, 239); 
+    border: 5px solid rgb(79, 156, 160);
+    transition: all 1s ease 0.25s;
+}
+.transition2:hover {
+    border-bottom-left-radius: 30px 105px;
+    border-bottom-right-radius:115px 25px;
+    border-top-left-radius:115px 25px;
+    border-top-right-radius:30px 105px;
+    background-color: rgb(214, 135, 121);
+}
+
+.transition3 {
+    border: 5px solid rgb(43, 5, 55);
+    background-color:rgb(110, 55, 106); 
+}
+.transition3:hover {
+    border-style:inset;
+    background-color:rgb(230, 0, 255);
+    transition: all 1s ease 0.25s;
+}
+
+.transition4 {
+    background-color:rgb(207, 205, 94); 
+    border: 5px solid rgb(253, 213, 153);
+    transition: all 1s ease 0.25s;
+}
+.transition4:hover {
+    outline: 5px solid rgb(101, 81, 17);
+    outline-offset: 8px;
+}
+
+.transition5 {
+    background-color:rgb(27, 200, 215); 
+    border: 5px solid rgb(38, 15, 112);
+    transition: all 1s ease 0.25s;
+}
+.transition5:hover {
+    width: 350px;
+    height: 180px;
+    box-shadow: 15px 10px 10px;
+}

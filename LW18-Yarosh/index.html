@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="freeCodeCamp Accessibility Quiz practice project" />
+    <title>Практична робота 18</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <img id="logo" src="https://cdn.freecodecamp.org/platform/universal/fcc_primary.svg">
+      <h1>HTML/CSS вікторина</h1>
+      <nav>
+        <ul>
+            <li><a href="#student-info" accesskey="i">Контакти</a></li>
+            <li><a href="#html-questions" accesskey="i">HTML</a></li>
+            <li><a href="#css-questions" accesskey="i">CSS</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+  <form method="post" action="https://freecodecamp.org/practice-project/accessibility-quiz">
+    <section role="region" aria-labelledby="student-info">
+      <h2 id="student-info">Інформація про студента</h2>
+      <div class="info">
+        <label for="student-name">Ім'я:</label>
+        <input type="text" name="student-name" id="student-name" />
+      </div>
+      <div class="info">
+        <label for="student-email">Пошта:</label>
+        <input type="email" name="student-email" id="student-email" />
+      </div>
+      <div class="info">
+        <label for="birth-date">Д.Н.<span class="sr-only">(Дата народження)</span></label>
+        <input type="date" name="birth-date" id="birth-date" />
+      </div>
+    </section>
+    <section role="region" aria-labelledby="html-questions">
+      <h2 id="html-questions">HTML</h2>
+      <div class="question-block">
+        <p>1</p>
+        <fieldset class="question" name="html-question-one">
+          <legend>
+            Елемент легенди представляє заголовок для вмісту 
+            свого батьківського елемента fieldset
+          </legend>
+          <ul class="answers-list">
+            <li>
+              <label for="q1-a1">
+                <input type="radio" id="q1-a1" name="q1" value="true" />
+                Правда
+              </label>
+            </li>
+            <li>
+              <label for="q1-a2">
+                <input type="radio" id="q1-a2" name="q1" value="false" />
+                Не правда
+              </label>
+            </li>
+          </ul>
+        </fieldset>
+      </div>
+      <div class="question-block">
+        <p>2</p>
+        <fieldset class="question" name="html-question-two">
+          <legend>
+            Елемент мітки, вкладений у елемент введення, повинен мати атрибут 
+            for із таким же значенням, що й ідентифікатор введення
+          </legend>
+          <ul class="answers-list">
+            <li>
+              <label for="q2-a1">
+                <input type="radio" id="q2-a1" name="q2" value="true" />
+                Правда
+              </label>
+            </li>
+            <li>
+              <label for="q2-a2">
+                <input type="radio" id="q2-a2" name="q2" value="false" />
+                Не правда
+              </label>
+            </li>
+          </ul>
+        </fieldset>
+      </div>
+      <div class="question-block">
+        <p>3</p>
+        <fieldset class="question" name="html-question-three">
+          <legend>
+            Абревіатура HTML розшифровується як
+            HeadText Modulation Language
+          </legend>
+          <ul class="answers-list">
+            <li>
+              <label for="q3-a1">
+                <input type="radio" id="q3-a1" name="q3" value="true" />
+                Правда
+              </label>
+            </li>
+            <li>
+              <label for="q2-a3">
+                <input type="radio" id="q3-a2" name="q3" value="false" />
+                Не правда
+              </label>
+            </li>
+          </ul>
+        </fieldset>
+      </div>
+    </section>
+    <section role="region" aria-labelledby="css-questions">
+      <h2 id="css-questions">CSS</h2>
+      <div class="formrow">
+        <div class="question-block">
+          <label for="customer">Ви розробник інтерфейсу?</label>
+        </div>
+        <div class="answer">
+          <select name="customer" id="customer" required>
+            <option value="">Виберіть опцію</option>
+            <option value="yes">Так</option>
+            <option value="no">Ні</option>
+          </select>
+        </div>
+        <div class="question-block">
+          <label for="css-questions">У вас є які-небудь питання:</label>
+        </div>
+        <div class="answer">
+          <textarea id="css-questions" name="css-questions" rows="5" cols="24" placeholder="Хто такий flexbox..."></textarea>
+        </div>
+      </div>
+    </section>
+    <button type="submit">Надіслати</button>
+  </form>
+</main>
+<footer>
+  <address>
+    <a href="https://freecodecamp.org">freeCodeCamp</a><br />
+    Смоліне<br />
+    Кіровоградська область<br />
+    Україна
+  </address>
+</footer>
+</body>
+</html>
